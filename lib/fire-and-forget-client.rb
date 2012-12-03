@@ -1,11 +1,5 @@
 require "fire-and-forget-client/version"
+require "fire-and-forget-client/client"
 
-module Fire
-  module And
-    module Forget
-      module Client
-        # Your code goes here...
-      end
-    end
-  end
+module FireAndForget
 end

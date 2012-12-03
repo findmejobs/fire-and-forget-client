@@ -5,7 +5,7 @@ require 'fire-and-forget-client/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "fire-and-forget-client"
-  gem.version       = Fire::And::Forget::Client::VERSION
+  gem.version       = FireAndForget::VERSION
   gem.authors       = ["Ted Kulp"]
   gem.email         = ["ted@tedkulp.com"]
   gem.description   = %q{TODO: Write a gem description}
@@ -16,4 +16,8 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_development_dependency "rspec"
+  gem.add_development_dependency "rake"
+  gem.add_development_dependency "yard"
 end
