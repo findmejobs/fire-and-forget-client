@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = FireAndForget::VERSION
   gem.authors       = ["Ted Kulp"]
   gem.email         = ["ted@tedkulp.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Client gem for the Fire and Forget tracking daemon.}
+  gem.summary       = %q{Client gem for the Fire and Forget tracking daemon.}
+  gem.homepage      = "https://github.com/tedkulp/fire-and-forget-client"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
