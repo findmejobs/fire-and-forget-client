@@ -1,6 +1,6 @@
-# Fire::And::Forget::Client
+# Fire And Forget Client
 
-TODO: Write a gem description
+Client for the Fire and Forget tracking daemon.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    client = FireAndForget::Client.new
+    client.record_action('user', 1, JSON.generate({'something': 'here'}), 'test', JSON.generate({'other_stuff': 'here'}))
 
 ## Contributing
 
