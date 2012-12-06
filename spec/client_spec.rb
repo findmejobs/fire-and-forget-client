@@ -34,9 +34,9 @@ describe 'client' do
       @data = {
         objectType: 'user',
         objectId: 1,
-        objectDetails: JSON.generate({ something: 'here' }),
+        objectDetails: { something: 'here' },
         action: 'action',
-        actionDetails: JSON.generate({ somethingelse: 'there' })
+        actionDetails: { somethingelse: 'there' }
       }
     end
 
@@ -62,9 +62,9 @@ describe 'client' do
       @data = {
         objectType: 'user',
         objectId: 1,
-        objectDetails: JSON.generate({ something: 'here' }),
+        objectDetails: { something: 'here' },
         action: 'action',
-        actionDetails: JSON.generate({ somethingelse: 'there' })
+        actionDetails: { somethingelse: 'there' }
       }
     end
 
