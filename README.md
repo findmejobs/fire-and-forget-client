@@ -1,4 +1,4 @@
-# Fire And Forget Client [![Build Status](https://secure.travis-ci.org/tedkulp/fire-and-forget-client.png)](http://secure.travis-ci.org/tedkulp/fire-and-forget-client)
+# Fire And Forget Client [![Build Status](https://secure.travis-ci.org/findmejobs/fire-and-forget-client.png)](http://secure.travis-ci.org/findmejobs/fire-and-forget-client)
 
 Client for the Fire and Forget tracking daemon.
 
